@@ -9,7 +9,9 @@ java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 android {
 	namespace = "nl.ndat.tvlauncher"
 	compileSdk = 34
-
+    lint {
+    	baseline = file("lint-baseline.xml")
+    }
 	defaultConfig {
 		minSdk = 21
 		targetSdk = 34
