@@ -24,7 +24,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@d156388eb19639ec20ade50009f3d199ce1e2808 # v4
       - name: Assemble debug APKs
-        run: ./gradlew assembleDebug
+        run: ./gradlew assemble
       - name: Create publish bundle
         run: mkdir -p build/gh-app-publish/; find app/build/ -iname "*.apk" -exec mv "{}" build/gh-app-publish/ \;
       - name: Upload artifacts
