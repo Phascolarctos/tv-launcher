@@ -1,7 +1,7 @@
 [versions]
 android-compileSdk = "35"
 android-minSdk = "21"
-android-plugin = "8.7.2"
+android-plugin = "8.7.3"
 android-targetSdk = "35"
 androidx-activity = "1.10.0-beta01"
 androidx-appcompat = "1.7.0"
@@ -16,7 +16,7 @@ coil = "2.7.0"
 java-jdk = "21"
 koin-android = "4.0.0"
 koin-compose = "4.0.0"
-kotlin = "2.0.21"
+kotlin = "2.1.0"
 sqldelight = "2.0.2"
 timber = "5.0.1"
 
